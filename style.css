@@ -1,0 +1,31 @@
+
+  
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100% !important;
+}
+.card{
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.15);
+}
+body{
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff) !important;
+} 
+.navbar a:hover{
+    color: #bfe9ff;
+    background-color:black;
+}
